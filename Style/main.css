@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+}
+
+label{
+    margin-left: 1em;
+}
+
+/* DATOS BASICOS ----------------------------------------------------- */
+
+.formularioDatosBasicos, .formularioDatosDemograficos, .formularioDatosContacto, .mostrarDatos {
+    color: #8b1522;
+    width: 100%;
+    margin: auto;
+    padding: 45px;
+}
+
+#h1_afueraDatosBasicos {
+    color: #8b1522;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+#hr_afuera {
+    margin-top: -0.5em;
+    margin-right: 0.4em;
+}
+
+.hr_afueraDatosBasicos {
+    margin-left: 6.6em;
+}
+
+.hr_afueraDatosDemograficos {
+    margin-left: 9.3em;
+}
+
+.hr_afueraDatosContacto {
+    margin-left: 8.5em;
+}
+
+.hr_afueraMostrarDatos {
+    margin-left: 8em;
+}
+
+#h3_afuera{
+    color: #8b1522;
+    margin-left: 90%;
+    margin-bottom: -40px;
+}
+
+.formularioDatosBasicos > p {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    grid-column-gap: 70px;
+}
+
+.formulario__grupo-input {
+    position: relative;
+}
+
+.formulario__label {
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario__input {
+    width: 100%;
+    background: white;
+    border: 3px solid #ac1a2a;
+    border-radius: 10px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 50px 0 10px;
+    transition: .3s ease all;
+    box-shadow: 2px 2px 2px #ac1a2a;
+    margin-left: 20px;
+}
+
+.formulario__input:focus {
+    border: 3px solid #ac1a2a;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__btn {
+    height: 35px;
+    line-height: 30px;
+    width: 10%;
+    background: #ac1a2a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.formulario__btn:hover {
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+#grupo_tipoDocumento {
+    justify-content: center;
+
+}
+
+/* DATOS DEMOGRAFICOS ----------------------------------------------------- */
+
+.formularioDatosDemograficos > h1 {
+    color: #8b1522;
+    margin-top: 35px;
+    margin-left: 22px;
+}
+
+.formularioDatosDemograficos > .formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    grid-column-gap: 5px;
+}
+
+.formularioDatosDemograficos > .boton2 {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 10%;
+    background: #ac1a2a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+/* DATOS CONTACTO ----------------------------------------------------- */
+
+.container {
+    margin-left: -0.9em;
+    margin-top: 1rem;
+}
+
+.formularioDatosContacto > span{
+    padding-left: 130px;
+}
+
+.formularioIndicativo {
+    font-weight: 700;
+    margin-left: 2.3em;
+}
+
+.formularioTelefono {
+    font-weight: 700;
+    margin-left: 28%;
+}
+
+.containerInputForm {
+    display: flex;
+}
+
+.formularioUnido {
+    display: -moz-grid-line;
+    margin: 10px 10px 0px 35px;
+    width: 13rem;
+    background: #fff;
+    border: 3px solid #ac1a2a;
+    border-radius: 10px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 70px 0 10px;
+    transition: .3s ease all;
+    box-shadow: 2px 2px 2px #ac1a2a;
+}
+
+.formularioUnido:focus {
+    border: 3px solid #ac1a2a;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.linea {
+    padding-top: 4em;
+    width: 50%;
+    border-bottom: 2px solid #8b1522;
+    margin: 0 auto;
+}
+
+.boton2 {
+    display: inline-block;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    width: 10%;
+    background: #ac1a2a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    margin-top: 28px;
+    text-decoration: none;
+}
+
+.boton2:hover {
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+.formularioBotonFinalizar {
+    display: flex;
+    justify-content: center;
+}

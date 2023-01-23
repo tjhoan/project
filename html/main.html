@@ -1,4 +1,4 @@
-<html lang="es"> <!-- hacer que en el libreta militar se muestre los valores posibles a ingresar -->
+<html lang="es">
 <!DOCTYPE html> 
 <head>
     <meta charset="UTF-8">
@@ -7,30 +7,27 @@
     <title>Proyecto POO</title>
     <link rel="stylesheet" href="../Style/main.css">
 </head>
-
     <!-- DATOS BASICOS___________________________________________________________________________________________________________________________  -->
-
     <h1 id="h1_afueraDatosBasicos">Datos Básicos<span id="span_afueraDatosBasicos"><hr id="hr_afuera" class="hr_afueraDatosBasicos"></span></h1>
     <h3 id="h3_afuera">Datos Obligatorios *</h3>
-
     <main class="formularioDatosBasicos">
         <form action="" class="formulario" id="formulario">
             <div class="formulario_grupo" id="grupo_nombre">
                 <label for="nombre" class="formulario__label">* Primer Nombre:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Primer Nombre">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Primer Nombre" value="Jhoan">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_nombre2">
                 <label for="nombre2" class="formulario__label">Segundo Nombre:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="nombre2" id="segundoNombre" placeholder="Segundo Nombre">
+                    <input type="text" class="formulario__input" name="nombre2" id="segundoNombre" placeholder="Segundo Nombre" value="Jose">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_apellido">
                 <label for="apellido" class="formulario__label">* Primer Apellido:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="apelldo" id="apellido" placeholder="Primer Apellido">
+                    <input type="text" class="formulario__input" name="apelldo" id="apellido" placeholder="Primer Apellido" value="Toro">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_apellido2">
@@ -42,7 +39,7 @@
             <div class="formulario_grupo" id="grupo_documento">
                 <label for="documento" class="formulario__label">* Tipo de Documento:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="documento" id="documento" placeholder="Documento">
+                    <input type="text" class="formulario__input" name="documento" id="documento" placeholder="Documento" value="Tarjeta de Identidad">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_identificacion">
@@ -66,7 +63,7 @@
             <div class="formulario_grupo" id="grupo_genero">
                 <label for="genero" class="formulario__label">* Género:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="genero" id="genero" placeholder="Género">
+                    <input type="text" class="formulario__input" name="genero" id="genero" placeholder="Género" value="Masculino">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_claseLibreta">
@@ -82,19 +79,16 @@
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_distrito">
-                <label for="distrito" class="formulario__label">Distrito Militar:</label>
+                <label for="distritoMilitar" class="formulario__label">Distrito Militar:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="distrito" id="distritoMilitar" placeholder="Distrito">
+                    <input type="text" class="formulario__input" name="distritoMilitar" id="distritoMilitar" placeholder="Distrito">
                 </div>
             </div>       
         </form>
     </main>
-
     <!-- DATOS DEMOGRAFICOS______________________________________________________________________________________________________________________ -->
-
     <h1 id="h1_afueraDatosBasicos">Datos Demográficos <span id="span_afueraDatosBasicos"><hr id="hr_afuera" class="hr_afueraDatosDemograficos"></span></h1>
     <h3 id="h3_afuera"><b>Datos Obligatorios *</b></h3>
-
     <section class="formularioDatosDemograficos">
         <form action="" class="formulario" id="formulario">
             <div class="formulario_grupo" id="grupo_nacionalidad">
@@ -104,15 +98,15 @@
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_estadoCivil">
-                <label for="estado" class="formulario__label">* Estado Civil:</label>
+                <label for="estadoCivil" class="formulario__label">* Estado Civil:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="estado" id="estadoCivil" placeholder="Estado Civil">
+                    <input type="text" class="formulario__input" name="estadoCivil" id="estadoCivil" placeholder="Estado Civil">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_pertenencia">
-                <label for="pertenencia" class="formulario__label">Pertenencia Étnica:</label>
+                <label for="pertenenciaEtnica" class="formulario__label">Pertenencia Étnica:</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulario__input" name="pertenencia" id="pertenenciaEtnica" placeholder="Pertenecia Étnica">
+                    <input type="text" class="formulario__input" name="pertenenciaEtnica" id="pertenenciaEtnica" placeholder="Pertenecia Étnica">
                 </div>
             </div>
             <div class="formulario_grupo" id="grupo_pais">
@@ -147,12 +141,9 @@
             </div>
         </form>
     </section>
-
     <!-- DATOS DE CONTACTO______________________________________________________________________________________________________________________ -->
-    
     <h1 id="h1_afueraDatosBasicos">Datos de Contacto<span id="span_afueraDatosBasicos"><hr id="hr_afuera" class="hr_afueraDatosContacto"></span></h1>
     <h3 id="h3_afuera">Datos Obligatorios *</h3>
-
     <section class="formularioDatosContacto">
         <form action="" class="formulario" id="formulario">
             <div class="formulario_grupo" id="grupo_nombre">
@@ -237,15 +228,9 @@
             <input type="button" id="enviar" value="Enviar" class="boton2">
         </div>
     </section>
-
         <!-- MOSTRAR DATOS______________________________________________________________________________________________________________________ -->
-
     <h1 id="h1_afueraDatosBasicos">Datos Ingresados<span id="span_afueraDatosBasicos"><hr id="hr_afuera" class="hr_afueraMostrarDatos"></span></h1>
-
-    <main class="mostrarDatos">
-        <section class="cardMostrar">
-            <div id="datos" style="display:none;">
-                <h1>Datos Recibidos</h1>
+        <section id="datos" class="cardMostrar" style="display:none;">
                 <p>Nombre: <span id="mostrar_nombre"></span></p>
                 <p>Segundo Nombre: <span id="mostrar_segundoNombre"></span></p>
                 <p>Apellido: <span id="mostrar_apellido"></span></p>
@@ -280,9 +265,7 @@
                 <p>Correo Electrónico Personal (Principal): <span id="mostrar_correoPrincipal"></span></p>
                 <p>Correo Electrónico Oficina: <span id="mostrar_correoOficina"></span></p>
                 <p>Red Social: <span id="mostrar_redSocial"></span></p>
-            </div>
         </section>
-    </main>
     <script src="../js/formulario.js"></script>
 </body>
 </html>

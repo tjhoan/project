@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
     font-family: 'Roboto', 'Montserrat', sans-serif;
 }
 
@@ -11,16 +9,17 @@ label{
 
 /* DATOS BASICOS ----------------------------------------------------- */
 
-.formularioDatosBasicos, .formularioDatosDemograficos, .formularioDatosContacto, .mostrarDatos {
+.formularioDatosBasicos, .formularioDatosDemograficos, .formularioDatosContacto, .cardMostrar {
+    font-size: 16px;
     color: #8b1522;
     width: 100%;
     margin: auto;
-    padding: 45px;
+    padding: 30px 45px 35px 45px;
 }
 
 #h1_afueraDatosBasicos {
     color: #8b1522;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 22px;
 }
 
@@ -47,8 +46,8 @@ label{
 
 #h3_afuera{
     color: #8b1522;
-    margin-left: 90%;
-    margin-bottom: -40px;
+    margin-left: 85%;
+    margin-bottom: -1.5%;
 }
 
 .formularioDatosBasicos > p {
@@ -69,52 +68,28 @@ label{
 
 .formulario__label {
     display: block;
-    font-weight: 700;
+    font-weight: 550;
     padding: 10px;
     cursor: pointer;
 }
 
 .formulario__input {
-    width: 100%;
+    width: 94%;
     background: white;
-    border: 3px solid #ac1a2a;
+    border: 2px solid #ac1a2a;
     border-radius: 10px;
-    height: 45px;
-    line-height: 45px;
-    padding: 0px 50px 0 10px;
-    transition: .3s ease all;
-    box-shadow: 2px 2px 2px #ac1a2a;
     margin-left: 20px;
+    height: 65%;
+    line-height: 45px;
+    padding: 0px 40px 0 10px;
+    transition: .3s ease all;
+    box-shadow: 1.5px 1.5px 1.5px #cc5d6a;
 }
 
 .formulario__input:focus {
     border: 3px solid #ac1a2a;
     outline: none;
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
-}
-
-.formulario__btn {
-    height: 35px;
-    line-height: 30px;
-    width: 10%;
-    background: #ac1a2a;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .1s ease all;
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.formulario__btn:hover {
-    box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
-}
-
-#grupo_tipoDocumento {
-    justify-content: center;
-
 }
 
 /* DATOS DEMOGRAFICOS ----------------------------------------------------- */
@@ -130,22 +105,6 @@ label{
     grid-template-columns: 1fr 1fr;
     gap: 25px;
     grid-column-gap: 5px;
-}
-
-.formularioDatosDemograficos > .boton2 {
-    display: inline-block;
-    height: 35px;
-    line-height: 35px;
-    width: 10%;
-    background: #ac1a2a;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .1s ease all;
-    margin-top: 80px;
-    text-decoration: none;
 }
 
 /* DATOS CONTACTO ----------------------------------------------------- */
@@ -174,17 +133,14 @@ label{
 }
 
 .formularioUnido {
-    display: -moz-grid-line;
     margin: 10px 10px 0px 35px;
-    width: 13rem;
-    background: #fff;
-    border: 3px solid #ac1a2a;
+    width: 48%;
+    border: 2px solid #ac1a2a;
     border-radius: 10px;
-    height: 45px;
-    line-height: 45px;
+    height: 37px;
     padding: 0px 70px 0 10px;
     transition: .3s ease all;
-    box-shadow: 2px 2px 2px #ac1a2a;
+    box-shadow: 1.5px 1.5px 1.5px #ac1a2a;
 }
 
 .formularioUnido:focus {
@@ -224,4 +180,22 @@ label{
 .formularioBotonFinalizar {
     display: flex;
     justify-content: center;
+}
+
+.cardMostrar {
+    display: flex;
+    column-count: 2;
+    margin: 2em;
+    padding: 1em;
+}
+
+.cardMostrar > p {
+    position: relative;
+    font-weight: 470;
+    background-color: #ac1a2a;
+    width: 70%;
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 0.5em;
 }

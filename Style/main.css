@@ -7,7 +7,7 @@ label{
     margin-left: 1em;
 }
 
-/* DATOS BASICOS ----------------------------------------------------- */
+/* DATOS BASICOS ---------------------------------------------------------------------------------------------------------- */
 
 .formularioDatosBasicos, .formularioDatosDemograficos, .formularioDatosContacto, .cardMostrar {
     font-size: 16px;
@@ -23,24 +23,24 @@ label{
     margin-left: 22px;
 }
 
-#hr_afuera {
+.hr_afuera {
     margin-top: -0.5em;
     margin-right: 0.4em;
 }
 
-.hr_afueraDatosBasicos {
-    margin-left: 6.6em;
+#hr_afueraDatosBasicos {
+    margin-left: 7em;
 }
 
-.hr_afueraDatosDemograficos {
-    margin-left: 9.3em;
+#hr_afueraDatosDemograficos {
+    margin-left: 9.9em;
 }
 
-.hr_afueraDatosContacto {
-    margin-left: 8.5em;
+#hr_afueraDatosContacto {
+    margin-left: 9em;
 }
 
-.hr_afueraMostrarDatos {
+#hr_afueraMostrarDatos {
     margin-left: 8em;
 }
 
@@ -92,7 +92,7 @@ label{
     box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
 }
 
-/* DATOS DEMOGRAFICOS ----------------------------------------------------- */
+/* DATOS DEMOGRAFICOS ---------------------------------------------------------------------------------------------------------- */
 
 .formularioDatosDemograficos > h1 {
     color: #8b1522;
@@ -107,7 +107,7 @@ label{
     grid-column-gap: 5px;
 }
 
-/* DATOS CONTACTO ----------------------------------------------------- */
+/* DATOS CONTACTO ---------------------------------------------------------------------------------------------------------- */
 
 .container {
     margin-left: -0.9em;
@@ -133,6 +133,7 @@ label{
 }
 
 .formularioUnido {
+    background-color: white;
     margin: 10px 10px 0px 35px;
     width: 48%;
     border: 2px solid #ac1a2a;
@@ -150,7 +151,7 @@ label{
 }
 
 .linea {
-    padding-top: 4em;
+    padding-top: 3em;
     width: 50%;
     border-bottom: 2px solid #8b1522;
     margin: 0 auto;
@@ -182,7 +183,7 @@ label{
     justify-content: center;
 }
 
-.cardMostrar {
+/* .cardMostrar {
     display: flex;
     column-count: 2;
     margin: 2em;
@@ -198,4 +199,81 @@ label{
     border-radius: 10px;
     padding: 1em;
     margin-bottom: 0.5em;
+} */
+
+/* TABLAS --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.style-table{
+    border-collapse: collapse;
+    margin: 2% auto;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.531);
+}
+
+#hr_afueraTablaAcademica {
+    margin-left: 10.7em;
+}
+
+#hr_afueraTablaIdiomas {
+    margin-left: 4em;
+}
+
+#hr_afueraTablaLaboral {
+    margin-left: 9.7em;
+}
+
+table{
+    border-bottom: 1.5px solid black;
+}
+
+.style-table thead tr{
+    background-color: #ac1a2a;
+    color: white;
+    text-align: middle; 
+}
+
+.style-table thead tr th {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.style-table th, .style-table td {
+    padding: 13px 33.5px;
+}
+
+.style-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.style-table tbody tr:nth-of-type(odd) {
+    background-color: #ded8d8;
+}
+
+.inputTableG {
+    border: none;
+    background-color: #ded8d8;
+    width: 138.3%;
+    padding: 7px;
+    margin: -1em -3em -1em -2.5em;
+}
+
+.inputTableW {
+    border: none;
+    background-color: blueviolet; /*color original white*/
+    padding: 7px;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+
+th,td,tr{
+    border-right: 1px solid black;
+}
+
+th{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+td{
+    border-left: 1px solid black;
 }

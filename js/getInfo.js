@@ -3,6 +3,7 @@ let objUser=[
         username:"1113302737",
         password:"2262375"
     },
+    
     {
         username:"Santiago",
         password:"2262434"
@@ -14,10 +15,10 @@ let objUser=[
 ]
 
 function getInfo(event) {
+    event.preventDefault()
 
-    event.preventDefault() 
-    
     const $numeroDeDocumento = document.getElementById('username').value
+
     const $password = document.getElementById('password').value
 
     let boolean = false
@@ -34,4 +35,4 @@ function getInfo(event) {
 }
 
 const $form = document.getElementById('form')
-$form.addEventListener("submit", getInfo)
+$form.addEventListener("submit", getInfo) 
